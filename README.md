@@ -9,12 +9,12 @@ Version: Python 3.8. <br/><br/>
 
 # Publish Code
 
-The following line will install Ghostscript. 
+The following line in _init_.py will install Ghostscript when not using containers. 
 
 ```
 command = subprocess.run(["apt-get", "-y", "install", "ghostscript"], check=True)
 ```
-> Note this should not execute if using Docker container.
+> Note this should not execute if using Docker container, but it is still tested if Ghostscript is installed.
 
 <br/><br/>
 # Container
