@@ -1,0 +1,19 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "myblob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "files/{name}",
+      "connection": "pdfmodstorage_STORAGE"
+    },
+    {
+      "name": "smblob",
+      "type": "blob",
+      "path": "filessm/{name}",
+      "connection": "pdfmodstorage_STORAGE",
+      "direction": "out"
+    }
+  ]
+}
