@@ -1,13 +1,13 @@
 
 
 There are 2 solutions to deploy: 
-- Directly to a Function App
-- Via a container. 
+- Publish code directly
+- Container. 
 
 
 Version: Python 3.8. <br/><br/>
 
-# Function App
+# Publish Code
 
 The following line will install Ghostscript. 
 
@@ -17,7 +17,7 @@ command = subprocess.run(["apt-get", "-y", "install", "ghostscript"], check=True
 > Note this should not execute if using Docker container.
 
 <br/><br/>
-# Docker
+# Container
 
 The code contains a DOCKERFILE that can be used with deploying to a Function App container. The file installs Ghostscript with the following command: 
 
