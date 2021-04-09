@@ -5,7 +5,7 @@ There are 2 solutions to deploy:
 - Via a container. 
 
 
-Version: Python 3.8. <br/>
+Version: Python 3.8. <br/><br/>
 
 # Function App
 
