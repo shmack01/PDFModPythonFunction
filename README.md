@@ -1,8 +1,8 @@
 
 
-There are 2 solutions to deploy: 
+This solution has 2 options for deployment: 
 - Publish code directly
-- Container. 
+- Container
 
 
 Version: Python 3.8. <br/><br/>
